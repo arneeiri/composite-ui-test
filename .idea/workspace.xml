@@ -26,16 +26,34 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frontend/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="459" selection-end="459" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
+            <state line="5" column="46" selection-start="306" selection-end="306" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trip/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="49" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Trip/js/app.js">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="0.09770115" vertical-offset="0" max-vertical-offset="1044">
+            <state line="4" column="53" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0651341" vertical-offset="0" max-vertical-offset="1044">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.config" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Frontend/web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
@@ -53,7 +71,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expense/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="14" column="3" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -62,7 +80,7 @@
       <file leaf-file-name="registertrip.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trip/partials/registertrip.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="0" selection-end="46" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="119">
+            <state line="5" column="62" selection-start="430" selection-end="430" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -100,10 +118,12 @@
         <option value="$PROJECT_DIR$/Frontend/partials/registertrip.html" />
         <option value="$PROJECT_DIR$/Frontend/partials/registerexpense.html" />
         <option value="$PROJECT_DIR$/Frontend/partials/home.html" />
-        <option value="$PROJECT_DIR$/Frontend/index.html" />
         <option value="$PROJECT_DIR$/Frontend/js/app.js" />
-        <option value="$PROJECT_DIR$/Trip/js/app.js" />
+        <option value="$PROJECT_DIR$/Trip/partials/registertrip.html" />
+        <option value="$PROJECT_DIR$/Frontend/index.html" />
         <option value="$PROJECT_DIR$/Expense/js/app.js" />
+        <option value="$PROJECT_DIR$/Trip/js/app.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -185,24 +205,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CompositeUiDemoWithTwoServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CompositeUiDemoWithTwoServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -218,42 +220,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CompositeUiDemoWithTwoServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CompositeUiDemoWithTwoServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CompositeUiDemoWithTwoServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CompositeUiDemoWithTwoServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,13 +375,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Trip/partials/registertrip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="0" selection-end="46" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="119">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expense/partials/registerexpense.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1018">
@@ -430,13 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="459" selection-end="459" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="8" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
@@ -444,16 +396,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expense/js/app.js">
+    <entry file="file://$PROJECT_DIR$/Trip/partials/registertrip.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state line="5" column="62" selection-start="430" selection-end="430" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="46" selection-start="306" selection-end="306" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Trip/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="0.09770115" vertical-offset="0" max-vertical-offset="1044">
+        <state line="19" column="49" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expense/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="53" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0651341" vertical-offset="0" max-vertical-offset="1044">
           <folding />
         </state>
       </provider>

@@ -3,7 +3,7 @@ expense.config(function($stateProvider) {
     $stateProvider.state('home.registerexpense',
         {
             url: 'registerexpense',
-            templateUrl: 'http://expense.localtest.me/expense/partials/registerexpense.html'
+            templateUrl: 'http://expense.localtest.me:3000/expense/partials/registerexpense.html'
         }
     );
 });
