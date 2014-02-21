@@ -17,7 +17,7 @@ trip.service("ActionProvider", function() {
 
 trip.controller('RegisterTripCtrl', function($scope, $http) {
     $scope.registerTrip = function() {
-        $http.post('http://trip.localtest.me:3000/trip/trip', trip).success(function()
+        $http.post('http://trip.localtest.me:3000/trip/trip', $scope.trip).success(function()
             {
                 alert('hey');
             }

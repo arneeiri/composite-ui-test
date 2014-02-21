@@ -35,7 +35,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trip/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="49" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="19" column="63" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="53" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0651341" vertical-offset="0" max-vertical-offset="1044">
+            <state line="36" column="25" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.5862069" vertical-offset="0" max-vertical-offset="1044">
               <folding />
             </state>
           </provider>
@@ -417,13 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trip/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="49" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expense/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="3" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
@@ -431,9 +424,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Trip/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="63" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="53" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0651341" vertical-offset="0" max-vertical-offset="1044">
+        <state line="36" column="25" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.5862069" vertical-offset="0" max-vertical-offset="1044">
           <folding />
         </state>
       </provider>
