@@ -1,0 +1,7 @@
+<h2>Select action</h2>
+<ul>
+    <li ng-repeat="action in actions">
+        <a ui-sref="{{action.state}}">{{action.title}}</a>
+    </li>
+</ul>
+<div ui-view></div>

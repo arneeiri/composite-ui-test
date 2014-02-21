@@ -1,0 +1,16 @@
+- Hver tjeneste utvikler sitt eget UI
+- FrontEnd/IT Ops drar inn avhengighetene
+	- Hver tjeneste er en Angular Modul
+	- Hver tjeneste registrerer sine egne states
+- Pub/Sub
+	- Hendelser i en modul kan påvirke en annen modul
+
+
+Eksempel:
+
+Refusjon
+	- Ny-knapp
+		- Trip
+		- Expense
+	- Valuta-knapp i frontend
+	
