@@ -1,26 +1,3 @@
-var trip = angular.module('trip', ['ui.router']);
-trip.config(function($stateProvider) {
-    $stateProvider.state('home.registertrip', {url: 'registertrip', templateUrl: 'partials/registertrip.html'});
-});
-
-trip.service("ActionProvider", function() {
-    this.getAction = function() {
-        return {state: "home.registertrip", title: "Register trip"};
-    };
-});
-
-var expense = angular.module('expense', ['ui.router']);
-expense.config(function($stateProvider) {
-    $stateProvider.state('home.registerexpense', {url: 'registerexpense', templateUrl: 'partials/registerexpense.html'});
-});
-
-
-expense.service("ActionProvider", function() {
-    this.getAction = function() {
-        return {state: "home.registerexpense", title: "Register expense"};
-    };
-});
-
 var frontend = angular.module('frontend', ['ui.router', 'trip', 'expense']);
 
 frontend.config(function($stateProvider, $urlRouterProvider) {
