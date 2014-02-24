@@ -36,13 +36,16 @@ frontend.service("ItemsProvider", function(ServiceLocator) {
 
         var itemProviders = ServiceLocator.resolve("ItemProvider");
         var functionArray = [];
-        for (var i = 0; i < itemProviders.length; i++) {
-            var itemProvider = itemProviders[i];
+        var addWork = function(itemProvider) {
             functionArray.push(function(callback) {
                 itemProvider.getItems($http, function(items) {
                     callback(null, items);
                 });
             });
+        };
+        for (var i = 0; i < itemProviders.length; i++) {
+            var itemProvider = itemProviders[i];
+            addWork(itemProvider);
         }
         async.parallel(functionArray, function(err, results) {
             var merged = [];

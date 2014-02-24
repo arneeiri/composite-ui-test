@@ -1,0 +1,1 @@
+[{"specification":"iPhone","total":"4000","date":"22.02.14"},{"specification":"Thinkpad","total":"10000","date":"23.02.14"}]

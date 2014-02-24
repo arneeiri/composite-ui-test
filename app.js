@@ -54,7 +54,50 @@ server.configure(function(){
                     }
                });
             } else {
-                res.send(200, {});
+                res.send(200, []);
+            }
+        });
+    });
+
+
+    server.post('/expense/expense', function(req, res) {
+        var save = function() {
+            fs.readFile('expense.txt', function(err, expenses) {
+                if (err){
+                    res.send(500);
+                    return;
+                }
+                var parsedExpenses = JSON.parse(expenses);
+                parsedExpenses.push(req.body);
+                fs.writeFile("expense.txt", JSON.stringify(parsedExpenses), function() {
+                    res.send(201);
+                })
+            });
+        };
+        fs.exists('expense.txt', function (exists) {
+            if (!exists){
+                fs.writeFile('expense.txt', JSON.stringify([]), function() {
+                    save();
+                })
+            }else {
+                save();
+            }
+        });
+    })
+
+    server.get('/expense/expense', function(req, res) {
+        res.set('Content-Type', 'text/json');
+        fs.exists('expense.txt', function (exists) {
+            if (exists) {
+                fs.readFile('expense.txt', function(err, expenses) {
+                    if (err) {
+                        res.send(500);
+                    } else {
+                        res.send(200, expenses);
+                    }
+                });
+            } else {
+                res.send(200, []);
             }
         });
     });
