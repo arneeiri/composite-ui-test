@@ -29,6 +29,8 @@ trip.service("ItemProvider", function() {
 
 trip.controller('RegisterTripCtrl', function($scope, $http) {
     $scope.registerTrip = function() {
-        $http.post('http://trip.localtest.me:3000/trip/trip', $scope.trip);
+        $http.post('http://trip.localtest.me:3000/trip/trip', $scope.trip).success(function() {
+            $scope.$emit('itemadded');
+        });
     }
 });

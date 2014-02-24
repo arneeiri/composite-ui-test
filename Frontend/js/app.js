@@ -13,9 +13,16 @@ frontend.config(function($stateProvider, $urlRouterProvider) {
 frontend.controller("HomeCtrl", function($scope, ActionsProvider, ItemsProvider, $http) {
     $scope.actions = ActionsProvider.getActions();
 
-    ItemsProvider.getItems($http, function (items) {
-        $scope.items = items;
-    });
+    var getItems = function () {
+        ItemsProvider.getItems($http, function (items) {
+            $scope.items = items;
+        });
+    }
+    getItems();
+
+    $scope.$on('itemadded', function() {
+        getItems();
+    })
 });
 
 

@@ -29,6 +29,8 @@ expense.service("ItemProvider", function() {
 
 expense.controller('RegisterExpenseCtrl', function($scope, $http) {
     $scope.registerExpense = function() {
-        $http.post('http://expense.localtest.me:3000/expense/expense', $scope.expense);
+        $http.post('http://expense.localtest.me:3000/expense/expense', $scope.expense).success(function() {
+            $scope.$emit('itemadded');
+        });
     }
 });
