@@ -1,1 +1,0 @@
-[{"destination":"Oslo","length":"10"},{"destination":"Stockholm","length":"1"},{"destination":"Copenhagen","length":"3"},{"destination":"Berlin","length":"4"},{"destination":"Trondheim","length":"10"}]
