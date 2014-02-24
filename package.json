@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^3.4.8"
+  },
+  "name": "CompositeUiDemoWithTwoServices",
+  "version": "0.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arneeiri/composite-ui-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arneeiri/composite-ui-test/issues"
+  },
+  "homepage": "https://github.com/arneeiri/composite-ui-test"
+}
