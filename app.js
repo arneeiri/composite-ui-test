@@ -18,7 +18,6 @@ server.configure(function(){
     });
 
     server.post('/trip/trip', function(req, res) {
-
         var save = function() {
             fs.readFile('trip.txt', function(err, trips) {
                 if (err){
@@ -31,7 +30,7 @@ server.configure(function(){
                     res.send(201);
                 })
             });
-        }
+        };
         fs.exists('trip.txt', function (exists) {
             if (!exists){
                 fs.writeFile('trip.txt', JSON.stringify([]), function() {
@@ -41,14 +40,28 @@ server.configure(function(){
                 save();
             }
         });
-
-
     })
+
+    server.get('/trip/trip', function(req, res) {
+        res.set('Content-Type', 'text/json');
+        fs.exists('trip.txt', function (exists) {
+            if (exists) {
+                fs.readFile('trip.txt', function(err, trips) {
+                    if (err) {
+                        res.send(500);
+                    } else {
+                        res.send(200, trips);
+                    }
+               });
+            } else {
+                res.send(200, {});
+            }
+        });
+    });
+
     server.use('/trip', express.static(__dirname + '/trip'));
     server.use('/expense', express.static(__dirname + '/expense'));
     server.use(express.static(__dirname + '/frontend'));
-
-
 });
 
 server.listen(3000);

@@ -15,12 +15,20 @@ trip.service("ActionProvider", function() {
     };
 });
 
+trip.service("ItemProvider", function() {
+    this.getItems = function($http, callback) {
+        $http.get('http://trip.localtest.me:3000/trip/trip').success(function(data){
+            for (var i = 0; i < data.length; i++) {
+                var trip = data[i];
+                trip.description = "Trip to " + trip.destination + " for " + trip.length + " days";
+            }
+            callback(data);
+        });
+    };
+})
+
 trip.controller('RegisterTripCtrl', function($scope, $http) {
     $scope.registerTrip = function() {
-        $http.post('http://trip.localtest.me:3000/trip/trip', $scope.trip).success(function()
-            {
-                alert('hey');
-            }
-        );
+        $http.post('http://trip.localtest.me:3000/trip/trip', $scope.trip);
     }
 });
