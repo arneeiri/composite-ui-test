@@ -1,6 +1,14 @@
 <h3>Come on man, lets register this trip</h3>
-<label for="tripdestination">Destination</label>
-<input type="text" id="tripdestination" ng-model="trip.destination" required="" placeholder="Where did you go?"/>
-<label for="triplength">Trip length</label>
-<input type="text" id="triplength" ng-model="trip.length" required="" placeholder="How many days was your trip?"/>
+<div>
+    <label for="tripdestination">Destination</label>
+    <input type="text" id="tripdestination" ng-model="trip.destination" required="" placeholder="Where did you go?"/>
+    <label for="triplength">Trip length</label>
+    <input type="text" id="triplength" ng-model="trip.length" required="" placeholder="How many days was your trip?"/>
+</div>
+<div ng-show="advanced">
+    <label for="advancedfield1">AdvancedField1</label>
+    <input type="text" id="advancedfield1" placeholder="Advanced"/>
+    <label for="advancedfield2">AdvancedField2</label>
+    <input type="text" id="advancedfield2" placeholder="Advanced"/>
+</div>
 <input type="button" ng-click="registerTrip()" value="Register"/>

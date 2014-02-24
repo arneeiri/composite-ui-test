@@ -1,8 +1,16 @@
 <h3>Okay man, give me your expense details</h3>
-<label for="expensespecification">Specification</label>
-<input type="text" id="expensespecification" ng-model="expense.specification" required="" placeholder="What did you buy?"/>
-<label for="expensetotal">Total amount</label>
-<input type="text" id="expensetotal" ng-model="expense.total" required="" placeholder="How much did it cost?"/>
-<label for="expensedate">Date</label>
-<input type="text" id="expensedate" ng-model="expense.date" required="" placeholder="When was the expense?"/>
+<div>
+    <label for="expensespecification">Specification</label>
+    <input type="text" id="expensespecification" ng-model="expense.specification" required="" placeholder="What did you buy?"/>
+    <label for="expensetotal">Total amount</label>
+    <input type="text" id="expensetotal" ng-model="expense.total" required="" placeholder="How much did it cost?"/>
+    <label for="expensedate">Date</label>
+    <input type="text" id="expensedate" ng-model="expense.date" required="" placeholder="When was the expense?"/>
+</div>
+<div ng-show="advanced">
+    <label for="advancedfield1">AdvancedField1</label>
+    <input type="text" id="advancedfield1" placeholder="Advanced"/>
+    <label for="advancedfield2">AdvancedField2</label>
+    <input type="text" id="advancedfield2" placeholder="Advanced"/>
+</div>
 <input type="button" ng-click="registerExpense()" value="Register"/>

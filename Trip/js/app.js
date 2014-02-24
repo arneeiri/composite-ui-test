@@ -33,4 +33,11 @@ trip.controller('RegisterTripCtrl', function($scope, $http) {
             $scope.$emit('itemadded');
         });
     }
+    $scope.$on("advancedmodeselected", function() {
+        $scope.advanced = true;
+    });
+
+    $scope.$on("simplemodeselected", function() {
+        $scope.advanced = false;
+    });
 });

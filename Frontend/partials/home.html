@@ -3,6 +3,8 @@
     <li ng-repeat="item in items">{{item.description}}</li>
 </ul>
 <h2>Select action</h2>
+<label for="advancedmode">Advanced options</label>
+<input id="advancedmode" type="checkbox" ng-model="advancedMode" />
 <ul>
     <li ng-repeat="action in actions">
         <a ui-sref="{{action.state}}">{{action.title}}</a>

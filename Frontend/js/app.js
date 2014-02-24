@@ -23,6 +23,14 @@ frontend.controller("HomeCtrl", function($scope, ActionsProvider, ItemsProvider,
     $scope.$on('itemadded', function() {
         getItems();
     })
+
+    $scope.$watch('advancedMode', function(newValue, oldValue) {
+       if (newValue) {
+           $scope.$broadcast("advancedmodeselected");
+       } else {
+           $scope.$broadcast("simplemodeselected");
+       }
+    });
 });
 
 
